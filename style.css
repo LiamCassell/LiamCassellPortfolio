@@ -1,0 +1,218 @@
+ /* Modify navbar color*/
+.navbar,  .dropdown, .nav-item {
+    background-color: #ffffff;
+ }
+
+ .white-tx, .navbar-text, .navbar-brand, .nav-link{
+    color: #ffffff;
+
+ }
+
+ .nav-style{
+    background-color: #53b5ff;
+    color: #ffffff;
+    border-radius: 4px;
+    
+ }
+
+
+ .drop-style{
+    background-color: #53b5ff;
+    color: #ffffff;
+ }
+
+.box{
+    height: 8px
+}
+
+.bg-lb{
+    background-color: #53b5ff;
+    
+ }
+ .bg-db{
+    background-color: #018fff;
+    
+ }
+ 
+ 
+.bg-gray{
+    background-color: #74777a17;
+    
+ }
+
+h1{
+    font-size: 3rem;
+    color:white;
+}
+
+/* Background color */
+bg-white{
+    background-color: white;
+}
+
+
+/* Used for the background of the project links */
+.bg-block{
+
+    min-height: 360;
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 7px;
+    border: #53b5ff 5px solid;
+    background-color: white;
+   
+    
+
+} 
+
+.project-b{
+    min-height: auto;
+}
+
+.bg-block > div, #bg-block > span{
+    border-radius: 7px;
+}
+
+
+.bg-block:hover{
+    border:    #0070c0 5px solid;
+    min-width: auto;
+ 
+}
+
+.bg-pic{
+    height: 222px;
+    width: 210px;
+    
+}
+
+
+.project-h{
+    font-size: 25px;
+    font-weight: bold;
+    color:#ff9900;
+    min-height: 75px;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.project-p{
+    font-size: 20px;
+    min-height: 60px;
+    color:black;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+
+
+
+/* FOOTER CSS */
+.footer-p{
+    padding-top: 24px;
+   
+    padding-bottom: 0;
+}
+
+/* project dropdown window */
+.spacing-btm {
+    margin-bottom: 6px;
+}
+
+/* Table Sytling */
+.table-txt-1{ /* prt # table body 1 */
+    font-style: normal;
+    font-weight: 300;
+}
+
+.table-txt-2{ /* prt # table body 2 */
+    font-style: italic;
+    font-weight: 500;
+}
+
+.table-txt-3{ /* prt # table header 2 */
+    font-style: normal;
+    font-weight: 750;
+    text-align: center;
+}
+
+
+
+
+#bg-im{
+    background: url(./Pictures/.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 460px;
+    position: relative;
+ 
+    text-shadow: 2px 2px 2px rgb(0, 5, 8);
+    color: #53b5ff;
+    text-align: center;
+} 
+
+.color-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(151, 202, 241, 0.6); 
+    padding: 2%;
+}
+
+.color-overlay2{
+    position: absolute;
+    /* width: 60%; */
+    height: 100%;
+    background-color: rgba(161, 161, 161, 0.8);
+    color: #ffffff;
+    padding: 2%;
+}
+
+body > div > div > div > h1 {
+    font-size: 80px;
+    
+    
+}
+
+body > div > div > div > p1 {
+    font-size: 60px;
+}
+
+body > div > div > div > p2 {
+    font-size: 30px;
+}
+.text-style{
+    color: #ff9900;
+}
+
+/* Media quiries */
+
+@media (max-width: 992px) { 
+    h1{font-size: 2rem; }
+    p{font-size: 0.5;}
+    body > div > div > div > h1 {font-size: 60px;}
+    
+    body > div > div > div > p1 {
+        font-size: 40px;
+    }
+    
+    body > div > div > div > p2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #bg-im{ 
+        min-height: 60vh;
+        max-height: 100vh;
+    }  
+    .color-overlay2{
+        width: 100%;
+    }
+}
+
+
