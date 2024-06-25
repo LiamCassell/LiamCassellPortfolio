@@ -45,6 +45,13 @@ h1{
     color:white;
 }
 
+h3{
+    color: white; 
+    font-weight: bold; 
+    font-size: 2.5rem;  
+    text-shadow: 2px 2px 2px rgb(0, 5, 8);
+}
+
 /* Background color */
 bg-white{
     background-color: white;
@@ -53,17 +60,19 @@ bg-white{
 
 /* Used for the background of the project links */
 .bg-block{
-
     min-height: 360;
     cursor: pointer;
     padding: 0px;
     border-radius: 7px;
     border: #53b5ff 5px solid;
     background-color: white;
-   
-    
-
 } 
+
+
+/* remove undeline from links */
+body > div > div > div > a{ 
+    text-decoration: none;
+}
 
 .project-b{
     min-height: auto;
@@ -105,15 +114,13 @@ bg-white{
     margin: 0;
     background-color: #ffffff;
     font-weight: bold;
+    
 }
-
-
 
 
 /* FOOTER CSS */
 .footer-p{
     padding-top: 24px;
-   
     padding-bottom: 0;
 }
 
@@ -140,8 +147,6 @@ bg-white{
 }
 
 
-
-
 #bg-im{
     background: url(./Pictures/.jpg);
     background-repeat: no-repeat;
@@ -159,7 +164,7 @@ bg-white{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(151, 202, 241, 0.6); 
+    background-color: rgba(94, 177, 240, 0.849); 
     padding: 2%;
 }
 
